@@ -1,3 +1,3 @@
 module.exports = function cowsay(str) {
-  return 'moo ' + str;
+  return 'mooo cow says ' + str;
 };
