@@ -6,7 +6,7 @@ const cowsay = require('../lib/cowsay');
 
 describe('moo function', function() {
   it('should moo for us', function() {
-    expect(cowsay()).to.eql(moo.say({
+    expect(cowsay('moooooo')).to.eql(moo.say({
       text : 'moooooo',
       e : '> <'
     }));
