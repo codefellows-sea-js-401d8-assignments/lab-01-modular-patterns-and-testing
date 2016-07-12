@@ -1,4 +1,4 @@
-const cowsay = require('../lib/cowsay');
+const cowsay = require('../index');
 const expect = require('chai').expect;
 
 describe('the cowsay function', function(){
