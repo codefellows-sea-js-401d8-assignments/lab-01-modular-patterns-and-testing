@@ -10,6 +10,6 @@ module.exports = function cowsay(string){
 
   const bubbleString = string;
 
-  console.log(' ' + bubbleTopBottom + '\n| ' + bubbleString + ' |\n' + ' ' + bubbleTopBottom + cow);
+  return ' ' + bubbleTopBottom + '\n| ' + bubbleString + ' |\n' + ' ' + bubbleTopBottom + cow;
 
 };

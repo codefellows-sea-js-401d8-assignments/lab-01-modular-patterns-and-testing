@@ -3,7 +3,7 @@ const expect = require('chai').expect;
 
 describe('the cowsay function', function(){
   it('should display cow saying inputed string', function(){
-    expect(cowsay('hello world')).to.eql(console.log(' ' +
+    expect(cowsay('hello world')).to.eql(' ' +
       '-'.repeat('hello world'.length + 2) +
       '\n| ' +
       'hello world' +
@@ -15,6 +15,6 @@ describe('the cowsay function', function(){
       '            (__)\\       )\\/\\\n' +
       '                ||----w |\n' +
       '                ||     ||\n'
-    ));
+    );
   });
 });
