@@ -1,0 +1,20 @@
+{
+  "name": "lab-vien",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cowsay.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "mocha": "^2.5.3"
+  }
+}
